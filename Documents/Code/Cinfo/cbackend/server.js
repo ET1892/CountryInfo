@@ -4,6 +4,8 @@ const axios = require('axios');
 const app = express();
 const PORT = 3001;
 
+process.setMaxListeners(15);
+
 app.use(cors()); 
 
 
